@@ -20,7 +20,6 @@ if (!empty($_POST['submit'])) {
     }
     header('location: list_users.php');
 }
-
 ?>
 <!DOCTYPE html>
 <html>

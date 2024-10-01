@@ -11,6 +11,7 @@ if (!empty($_GET['keyword'])) {
 }
 
 $users = $userModel->getUsers($params);
+
 ?>
 <!DOCTYPE html>
 <html>
